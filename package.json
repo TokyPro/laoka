@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "nodemon",
     "build": "npx tsc",
-    "vercel-build": "npx prisma generate && npx tsc",
+    "vercel-build": "npx -y prisma generate && npx tsc",
     "start": "node dist/app.js"
   },
   "keywords": [],
